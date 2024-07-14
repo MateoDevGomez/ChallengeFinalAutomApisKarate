@@ -1,0 +1,11 @@
+### Conclusiones
+ Una vez culminado el proyecto, se pudieron obtener las siguientes conclusiones: 
+
+- Karate mejora significativamente la eficiencia en la realización de pruebas de APIs,
+ ya que se integra con la herramienta de lenguaje natural Gherkin, lo que permite estructurar
+las pruebas de manera organizada. 
+
+- Realizar verificaciones es un elemento clave para asegurar el éxito de las pruebas.
+En este proyecto, el código de respuesta siempre era 200, cuando debería haber sido otro en ciertos casos. 
+Por ello, fue necesario verificar en la respuesta de cada petición POST si existía algún mensaje de error, 
+determinando así si la prueba era positiva o negativa.
