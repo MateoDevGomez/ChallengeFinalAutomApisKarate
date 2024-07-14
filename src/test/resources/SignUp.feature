@@ -8,7 +8,7 @@ Feature: Sign Up
     # Se coloca un nuevo usuario, para que funcione cuando se pruebe por el evaluador
   """
   {
-    "username": "mateogomez",
+    "username": "mateogomez1",
     "password": "123"
   }
   """
@@ -21,7 +21,7 @@ Feature: Sign Up
     When request
   """
   {
-    "username": "mateogomez",
+    "username": "mateogomez1",
     "password": "123"
   }
   """
