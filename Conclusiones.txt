@@ -10,3 +10,7 @@ las pruebas de manera organizada.
 En este proyecto, el código de respuesta siempre era 200, cuando debería haber sido otro en ciertos casos. 
 Por ello, fue necesario verificar en la respuesta de cada petición POST si existía algún mensaje de error, 
 determinando así si la prueba era positiva o negativa.
+
+-El uso de Background en Karate fue fundamental para probar APIs, ya que permitió estructurar de forma organizada 
+las diferentes peticiones. Esto facilitó la configuración y preparación inicial del entorno de prueba, haciendo el
+proceso más eficiente y reutilizable.
