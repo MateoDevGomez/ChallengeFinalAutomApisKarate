@@ -4,7 +4,7 @@ Feature: Sign Up
     * def csvData = read('classpath:data/signupUsers.csv')
     Given url "https://api.demoblaze.com"
 
-  Scenario Outline:  Crear un nuevo usuario y probar con uno ya existente en JSON
+  Scenario Outline: Crear un nuevo usuario y probar con un usuario existente en JSON
     Given path "signup"
     When request
   """
@@ -20,7 +20,7 @@ Feature: Sign Up
       |jsonData|
 
 
-  Scenario Outline:  Crear un nuevo usuario y probar con uno ya existente en CSV
+  Scenario Outline: Crear un nuevo usuario y probar con un usuario existente en CSV
     Given path "signup"
     When request
   """

@@ -4,7 +4,7 @@ Feature: Login
     * def csvData = read('classpath:data/loginUsers.csv')
     Given url "https://api.demoblaze.com"
 
-  Scenario Outline: Usuario y password correcto en login en JSON
+  Scenario Outline: Login con usuario y password en formato JSON
     Given path "login"
     When request
   """
@@ -24,7 +24,7 @@ Feature: Login
 
 
 
-  Scenario Outline: Usuario y password correcto en login en CSV
+  Scenario Outline: Login con usuario y password en formato CSV
     Given path "login"
     When request
       """
