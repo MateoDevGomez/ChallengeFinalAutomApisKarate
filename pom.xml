@@ -78,9 +78,6 @@
 
             <testResource>
                 <directory>src/test/resources</directory>
-                <includes>
-                    <include>**/*.feature</include>
-                </includes>
             </testResource>
 
         </testResources>
